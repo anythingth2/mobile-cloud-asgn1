@@ -45,7 +45,9 @@ public class Application {
 		// This call tells spring to launch the application and
 		// use the configuration specified in LocalApplication to
 		// configure the application's components.
+		System.out.println("Server starting...");
 		SpringApplication.run(Application.class, args);
+		System.out.println("Started");
 	}
 
 	// This configuration element adds the ability to accept multipart
